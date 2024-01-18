@@ -1,0 +1,129 @@
+/* Add this to your existing CSS file or create a new one */
+
+/* Thumbnails styling */
+.thumbnails {
+    display: flex;
+    align-items: center; /* Center thumbnails vertically */
+    margin-top: 20px;
+  }
+  
+  .thumbnails img {
+    width: 80px;
+    height: 100px; /* Set a fixed height for thumbnails */
+    margin-right: 10px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .thumbnails img.active {
+    border-color: #3498db;
+  }
+  
+  /* Product Detail section styling */
+  .section.product-detail {
+    padding: 40px 0;
+  }
+  
+  .details.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left.image-container {
+    flex: 1;
+  }
+  
+  .main img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .right {
+    padding-left: 20px;
+  }
+  
+  /* Other styles (add or modify as needed) */
+  span {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  h1 {
+    margin-top: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  select,
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .addCart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  /* Footer styling (add or modify as needed) */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer span {
+    margin-right: 10px;
+  }
+  
+  /* Responsive styling (add or modify as needed) */
+  @media only screen and (max-width: 768px) {
+    .details.container {
+      flex-direction: column;
+    }
+  
+    .right {
+      padding-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
